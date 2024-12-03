@@ -1,0 +1,43 @@
+# Ignoriere spezifische Dateien und Ordner von Visual Studio Code und .NET:
+# Build-Ausgabe und temporäre Dateien
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.pid
+*.csproj
+*.sln
+
+# Visual Studio Code spezifisch
+.vscode/
+.vscode/*
+
+# Paketmanager-Dateien
+*.nuget/
+packages/
+
+# Projekt- und Benutzerkonfigurationsdateien
+*.user
+*.suo
+*.csproj.user
+*.props
+*.targets
+
+# IDE-spezifische Metadaten (Rider, Visual Studio for Mac, etc.)
+.idea/
+*.sln.iml
+
+# Mac spezifisch
+.DS_Store
+
+# Windows spezifisch
+Thumbs.db
+desktop.ini
+
+# Sonstige temporäre Dateien
+*.tmp
+*.bak
+*.swp
