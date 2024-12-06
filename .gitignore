@@ -10,6 +10,7 @@ obj/
 *.pid
 *.csproj
 *.sln
+*.txt
 
 # Visual Studio Code spezifisch
 .vscode/
